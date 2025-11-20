@@ -4,7 +4,8 @@ Implementation of the Banker's Algorithm in a Linux environment.
 This project implements the Banker’s Algorithm for deadlock avoidance using C++ on a Linux/Unix system. It reads in from input text files to create tables in this
 format: 
 
-<img width="583" height="320" alt="image" src="https://github.com/user-attachments/assets/04c23e33-2677-441d-8864-4c9b47862b46" />
+<img width="582" height="323" alt="image" src="https://github.com/user-attachments/assets/0848f387-3a2c-4e32-8ef2-472dfd75b9e9" />
+
 
 Using this data, the program computes the Need matrix, representing how many additional resources each process requires to finish. It then goes through the safety
 check phase of the Banker’s Algorithm by looping to search for a process whose needs can be satisfied. When a process is found, it releases its allocated resources
