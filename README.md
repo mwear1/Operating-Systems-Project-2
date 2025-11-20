@@ -45,3 +45,15 @@ $ ./bank test.txt
 Below are screenshots of the program in execution:
 
 Compilation:
+
+<img width="1920" height="955" alt="image" src="https://github.com/user-attachments/assets/06a13257-876e-4967-8469-9da356a499f7" />
+
+Running Test 1 (SAFE):
+
+<img width="1920" height="955" alt="image" src="https://github.com/user-attachments/assets/d84ed3b0-455f-4cf1-a8db-3aeccb5a0060" />
+
+Running Test 2 (UNSAFE):
+
+<img width="1920" height="955" alt="image" src="https://github.com/user-attachments/assets/11b30c92-d098-4a6c-aede-373999195d3e" />
+
+
