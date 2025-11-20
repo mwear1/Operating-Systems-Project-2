@@ -7,7 +7,8 @@ format:
 <img width="582" height="323" alt="image" src="https://github.com/user-attachments/assets/0848f387-3a2c-4e32-8ef2-472dfd75b9e9" />
 
 
-Using this data, the program computes the Need matrix, representing how many additional resources each process requires to finish. It then goes through the safety
+The "test.txt" files are the snapshots being used in this project. Using this data, the program computes the Need matrix, representing how many additional resources each
+process requires to finish. It then goes through the safety 
 check phase of the Banker’s Algorithm by looping to search for a process whose needs can be satisfied. When a process is found, it releases its allocated resources
 back into the system. If all processes can finish in this way, then the system is in a safe state. If not, then no safe sequence exists and the system is
 unsafe.
@@ -26,7 +27,7 @@ The following libraries are used in this program:
 <iostream>
 <fstream>
 <string>
-<csdtlib>
+<cstdlib>
 ```
 Hardware Versions used:  
 Visual Studio Code v1.105.1  
